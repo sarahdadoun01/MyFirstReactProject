@@ -1,10 +1,8 @@
-function Task(){
+function Task({ taskName }){ // when called, pass the input value
+
     return (
         <div>
-
-            <h2>First Task</h2>
-            <p>This is a sample task description.</p>
-
+            <h2>{taskName}</h2>
         </div>
     );
 }
